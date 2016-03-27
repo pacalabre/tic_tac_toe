@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Londrina+Shadow);
 
 body {
+  /* Fallback Style */
   background-color: darkblue;
   background: -webkit-linear-gradient(darkblue, yellow);
 }
@@ -20,7 +21,7 @@ color: white;
 
 /* Board Styles */
 .board {
-  background-color: white;
+  background-color: transparent;
   height: 75%;
   width: 50%;
   display: block;
@@ -38,6 +39,11 @@ color: white;
   border:solid white;
   float: left;
   margin: 0 auto;
+}
+
+.board-position:hover {
+  border-radius: 40px;
+  animation: 1s ease-in-out;
 }
 
 .board-position-h2 {
