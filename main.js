@@ -1,7 +1,9 @@
 
-
 var counter = true;
+var buttons = [];
+var buttonText = [];
 
+//counter to toggle turn
   function toggleTurn() {
     if (counter === true) {
       counter = false;
@@ -10,43 +12,34 @@ var counter = true;
     }
   }
 
+//store id's position1 - position9  in var 'buttons'
+for(var i = 1; i <= 9; i++) {
+  buttons.push('position'+i);
+}
 
-//Position 1
+// store id's pos1Text - pos9Text in var 'buttonText'
+for(var i = 1; i <= 9; i++) {
+  buttonText.push('pos'+i+'Text');
+}
 
-  document.getElementById('position1').addEventListener("click", function(){
+for (var i = 0; i < buttons.length; i++) {
+    var gameButtons = buttons[i];
+    var displayText = buttonText[i];
+
+    document.getElementById(gameButtons).addEventListener("click", function(event){
     if (counter === true) {
-    console.log(counter);
-
-    document.getElementById('posOneText').innerHTML="X";
+    //console.log(gameButtons);
+    event.target.innerHTML="X";
     } else {
-    document.getElementById('posOneText').innerHTML="O";
+    event.target.innerHTML="O";
+    //console.log(gameButtons);
     }
     toggleTurn();
   })
-
-
-var buttons = [];
-
-for(var i = 1; i <= 9; i++) {
-  buttons.push('position'+i);
-
-  // document.getElementById(buttons[i]).addEventListener("click", function() {
-  // if (counter === true) {
-  //   console.log(counter);
-
-  //   document.getElementById('pos'+i+'Text').innerHTML="X";
-  //   } else {
-  //   document.getElementById('pos'+i+'Text').innerHTML="O";
-  //   }
-  //   toggleTurn();
-  // })
+    console.log('gameButtons = '+gameButtons);
 }
 
-for (var i =0; i < buttons.length; i++) {
-  var gameButtons = buttons[i];
-  console.log(gameButtons);
-}
-
+console.log(buttonText);
 
 
 
