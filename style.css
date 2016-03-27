@@ -57,10 +57,10 @@ color: white;
 
 
 /*
-TODO:
-- Animated CSS
-- Make JS more DRY
+TODO (in order of importance):
 - Reconfigure counter variable so that it is out of the global scope
+- Make JS more DRY
 - Make the JS know when someone has won, and display text to page
+- Animated CSS
 - Make the page responsive
 */
