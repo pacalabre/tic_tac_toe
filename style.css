@@ -11,7 +11,8 @@ body {
 .board-position {
   height: 30%;
   width: 30%;
-  background-color: white;
-  border:solid black;
+  background-color: darkblue;
+  border:solid white;
   float:right;
+  margin: 0 auto;
 }
