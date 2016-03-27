@@ -9,7 +9,9 @@ body {
 }
 
 .board-position {
-  height: 4%;
+  height: 30%;
   width: 30%;
-  background-color: black;
+  background-color: white;
+  border:solid black;
+  float:right;
 }
