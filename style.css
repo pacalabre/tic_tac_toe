@@ -12,6 +12,7 @@ body {
 }
 
 .board-position {
+  /*at smaller screen, you will need to reduce the padding to make it more responsive*/
   padding:1%;
   display: block;
   height: 30%;
@@ -20,4 +21,13 @@ body {
   border:solid white;
   float:right;
   margin: 0 auto;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 50px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding: 7% 40%;
 }
