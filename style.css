@@ -6,9 +6,14 @@ body {
   background-color: white;
   height: 75%;
   width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 18%;
 }
 
 .board-position {
+  padding:1%;
+  display: block;
   height: 30%;
   width: 30%;
   background-color: darkblue;
