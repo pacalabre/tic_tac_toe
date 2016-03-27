@@ -3,6 +3,7 @@
 
 body {
   background-color: darkblue;
+  background: -webkit-linear-gradient(darkblue, yellow);
 }
 
 /* Title Styles */

@@ -16,7 +16,7 @@ document.getElementById('position1').addEventListener("click", function(){
   if (counter === true) {
   console.log(counter);
 
-  document.getElementById('posOneText').innerHTML="x";
+  document.getElementById('posOneText').innerHTML="X";
   } else {
   document.getElementById('posOneText').innerHTML="O";
   }
@@ -27,7 +27,7 @@ document.getElementById('position1').addEventListener("click", function(){
 document.getElementById('position2').addEventListener("click", function(){
   if (counter === true) {
   console.log(counter);
-  document.getElementById('posTwoText').innerHTML="x";
+  document.getElementById('posTwoText').innerHTML="X";
   } else {
   document.getElementById('posTwoText').innerHTML="O";
   }
@@ -38,7 +38,7 @@ document.getElementById('position2').addEventListener("click", function(){
 document.getElementById('position3').addEventListener("click", function(){
   if (counter === true) {
   console.log(counter);
-  document.getElementById('posThreeText').innerHTML="x";
+  document.getElementById('posThreeText').innerHTML="X";
   } else {
   document.getElementById('posThreeText').innerHTML="O";
   }
@@ -49,7 +49,7 @@ document.getElementById('position3').addEventListener("click", function(){
 document.getElementById('position4').addEventListener("click", function(){
   if (counter === true) {
   console.log(counter);
-  document.getElementById('posFourText').innerHTML="x";
+  document.getElementById('posFourText').innerHTML="X";
   } else {
   document.getElementById('posFourText').innerHTML="O";
   }
@@ -60,7 +60,7 @@ document.getElementById('position4').addEventListener("click", function(){
 document.getElementById('position5').addEventListener("click", function(){
   if (counter === true) {
   console.log(counter);
-  document.getElementById('posFiveText').innerHTML="x";
+  document.getElementById('posFiveText').innerHTML="X";
   } else {
   document.getElementById('posFiveText').innerHTML="O";
   }
@@ -71,7 +71,7 @@ document.getElementById('position5').addEventListener("click", function(){
 document.getElementById('position6').addEventListener("click", function(){
   if (counter === true) {
   console.log(counter);
-  document.getElementById('posSixText').innerHTML="x";
+  document.getElementById('posSixText').innerHTML="X";
   } else {
   document.getElementById('posSixText').innerHTML="O";
   }
@@ -82,7 +82,7 @@ document.getElementById('position6').addEventListener("click", function(){
 document.getElementById('position7').addEventListener("click", function(){
   if (counter === true) {
   console.log(counter);
-  document.getElementById('posSevenText').innerHTML="x";
+  document.getElementById('posSevenText').innerHTML="X";
   } else {
   document.getElementById('posSevenText').innerHTML="O";
   }
@@ -93,7 +93,7 @@ document.getElementById('position7').addEventListener("click", function(){
 document.getElementById('position8').addEventListener("click", function(){
   if (counter === true) {
   console.log(counter);
-  document.getElementById('posEightText').innerHTML="x";
+  document.getElementById('posEightText').innerHTML="X";
   } else {
   document.getElementById('posEightText').innerHTML="O";
   }
@@ -104,7 +104,7 @@ document.getElementById('position8').addEventListener("click", function(){
 document.getElementById('position9').addEventListener("click", function(){
   if (counter === true) {
   console.log(counter);
-  document.getElementById('posNineText').innerHTML="x";
+  document.getElementById('posNineText').innerHTML="X";
   } else {
   document.getElementById('posNineText').innerHTML="O";
   }
