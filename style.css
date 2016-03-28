@@ -39,6 +39,12 @@ color: white;
   border:solid white;
   float: left;
   margin: 0 auto;
+  font-family: Londrina Shadow;
+  font-size: 50px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  /*padding: 0% 40%;*/
 }
 
 .board-position:hover {
